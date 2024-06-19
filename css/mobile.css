@@ -1,0 +1,171 @@
+.container {
+  position: relative;
+  text-align: center;
+  font-size: 25px;
+  color: white;
+}
+.centered {
+  position: absolute;
+  top: 30%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+p {
+  margin: 0px;
+}
+.full {
+  font-size: 13px;
+}
+.topnav a {
+  display: block;
+  background-color: #fff;
+  overflow: hidden;
+  justify-content: center;
+}
+#namen {
+  font-size: 25px;
+  display: none;
+}
+.topnav a {
+  float: none;
+  width: 100%;
+}
+
+.name {
+  font-size: 25px;
+}
+.cv-page {
+  display: block;
+  grid-template-columns: 1fr 1fr;
+  column-gap: -10px;
+}
+.section-content {
+  margin-bottom: 20px;
+}
+
+#experience {
+  border: 1px solid #837070;
+  padding: 10px;
+  margin-top: 10px;
+}
+.grid {
+  display: grid;
+  grid-template-columns: 4fr 3fr;
+}
+#icon {
+  padding-left: 150px;
+  font-size: 40px;
+  background-color: #fff;
+}
+#ic {
+  color: #199cbd;
+}
+#eco {
+  color: rgb(22, 161, 199);
+  border: #199cbd solid 1px;
+  border-radius: 50%;
+  width: 30px;
+  height: 30px;
+  display: flex;
+  align-items: center;
+  text-align: center;
+}
+#target {
+  background-color: #dbc4c4;
+}
+#info {
+  background-color: #edd4d4;
+}
+#neu {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+}
+#neu {
+  border-radius: 50%;
+  height: 100px;
+  width: 100px;
+
+  background-color: #fff;
+}
+.punkt {
+  background: #199cbd;
+  display: inline-block;
+  height: 2px;
+  margin-right: 10px;
+  width: 45px;
+}
+.leer {
+  background: #aecbd1;
+  display: inline-block;
+  height: 2px;
+  margin-right: 10px;
+  width: 45px;
+}
+#certificate {
+  background-color: #f8f5f5;
+  border-bottom: 2px solid #837070;
+}
+.haupt {
+  display: grid;
+}
+#kontakt {
+  background-color: #e8dede;
+  height: 70px;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-decoration: none;
+  clear: both;
+}
+#award {
+  display: grid;
+  grid-template-columns: 1fr;
+  row-gap: 20px;
+  align-content: center;
+  justify-content: center;
+}
+.catan {
+  display: grid;
+  grid-template-columns: 1fr;
+  border-bottom: solid 2px #dfcd2b;
+}
+.para {
+  text-align: start;
+  font-size: 15px;
+}
+#neu {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  column-gap: 10px;
+}
+@media screen and (max-width: 768px) {
+  #experience {
+    width: 100%;
+  }
+  #award {
+    width: 100%;
+  }
+}
+.hide,
+.beruf {
+  display: none;
+}
+.skill {
+  border: 1px solid #ccc;
+  margin: 10px;
+  padding: 10px;
+  border-radius: 5px;
+}
+
+.skill-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  cursor: pointer;
+}
+
+.skill-content {
+  display: none;
+  margin-top: 10px;
+}

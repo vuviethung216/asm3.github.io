@@ -1,0 +1,209 @@
+.container {
+  position: relative;
+  text-align: center;
+  font-size: 25px;
+  color: white;
+}
+.centered {
+  position: absolute;
+  top: 30%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+p {
+  margin: 0px;
+}
+.full {
+  font-size: 13px;
+}
+.topnav {
+  display: flex;
+  background-color: #fff;
+  overflow: hidden;
+  justify-content: center;
+}
+.topnav a {
+  float: left;
+  color: black;
+  text-align: center;
+  padding: 20px 20px;
+  text-decoration: none;
+  font-size: 14px;
+}
+#namen {
+  font-size: 25px;
+  display: none;
+}
+.erfahrung {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  column-gap: 20px;
+  grid-row-gap: 40px;
+}
+.cv-page {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  column-gap: -10px;
+}
+.section-content {
+  margin: 20px;
+}
+.section-title {
+  margin: 20px;
+}
+.beruf {
+  margin: 20px;
+}
+#mehr p {
+  margin-bottom: 0px;
+}
+
+#experience {
+  border: 1px solid #837070;
+  padding: 10px;
+  margin-top: 10px;
+}
+.grid {
+  display: grid;
+  grid-template-columns: 4fr 3fr;
+}
+#icon {
+  padding-left: 150px;
+  font-size: 40px;
+  background-color: #fff;
+}
+#ic {
+  color: #199cbd;
+}
+#eco {
+  color: rgb(22, 161, 199);
+  border: #199cbd solid 1px;
+  border-radius: 50%;
+  width: 30px;
+  height: 30px;
+  display: flex;
+  align-items: center;
+  text-align: center;
+}
+#target {
+  background-color: #dbc4c4;
+}
+#info {
+  background-color: #edd4d4;
+}
+#neu {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+}
+#neu {
+  border-radius: 50%;
+  height: 100px;
+  width: 100px;
+
+  background-color: #fff;
+}
+.punkt {
+  background: #199cbd;
+  display: inline-block;
+  height: 2px;
+  margin-right: 10px;
+  width: 45px;
+}
+.leer {
+  background: #aecbd1;
+  display: inline-block;
+  height: 2px;
+  margin-right: 10px;
+  width: 45px;
+}
+#certificate {
+  background-color: #f8f5f5;
+  border-bottom: 2px solid #837070;
+}
+.haupt {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+}
+#kontakt {
+  background-color: #e8dede;
+  height: 70px;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-decoration: none;
+  clear: both;
+}
+#award {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  row-gap: 20px;
+  align-content: center;
+  justify-content: center;
+}
+.catan {
+  display: grid;
+  grid-template-columns: 1fr 2fr;
+}
+.para {
+  text-align: start;
+  font-size: 15px;
+}
+#neu {
+  display: none;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  column-gap: 10px;
+}
+#project p {
+  border: solid 1px rgb(198, 173, 151);
+}
+@media screen and (max-width: 991px) and (min-width: 768px) {
+  #experience {
+    width: 100%;
+  }
+}
+.year {
+  display: inline-block;
+  background-color: #199cbd;
+  border-radius: 15px;
+  color: #fff;
+  border-color: solid #199cbd;
+  width: 50px;
+  justify-content: center;
+  height: 28px;
+}
+
+.tauschen {
+  display: flex;
+  float: left;
+}
+#ein {
+  border: 1px solid #829191;
+}
+.hide,
+.beruf {
+  display: none;
+}
+.skill {
+  border: 1px solid #ccc;
+  margin: 10px;
+  padding: 10px;
+  border-radius: 5px;
+}
+
+.skill-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  cursor: pointer;
+}
+
+.skill-content {
+  display: none;
+  margin-top: 10px;
+}
+.align {
+  display: flex;
+  float: left;
+  gap: 20px;
+}
